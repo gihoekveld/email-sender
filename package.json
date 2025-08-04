@@ -4,6 +4,7 @@
   "description": "Simple Node.js utility to send emails locally using SMTP",
   "main": "src/index.js",
   "scripts": {
+    "predev": "docker-compose up -d",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
